@@ -12,6 +12,7 @@ import { List } from "./practices/list";
 import { Tap } from "./practices/tap";
 import { Timer } from "./practices/timer";
 import { Carousel } from "./practices/carousel";
+import { Calculator } from "./practices/calculator";
 
 function Router() {
   return (
@@ -30,6 +31,7 @@ function Router() {
           <Route path="/tap" element={<Tap />}/>
           <Route path="/timer" element={<Timer />} />
           <Route path="/carousel" element={<Carousel />} />
+          <Route path="/calculator" element={<Calculator />} />
         </Routes>
     </BrowserRouter>
   )
