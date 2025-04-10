@@ -11,6 +11,7 @@ import { Chatting } from "./practices/chatting";
 import { List } from "./practices/list";
 import { Tap } from "./practices/tap";
 import { Timer } from "./practices/timer";
+import { Carousel } from "./practices/carousel";
 
 function Router() {
   return (
@@ -28,6 +29,7 @@ function Router() {
           <Route path="/list" element={<List />}/>
           <Route path="/tap" element={<Tap />}/>
           <Route path="/timer" element={<Timer />} />
+          <Route path="/carousel" element={<Carousel />} />
         </Routes>
     </BrowserRouter>
   )
