@@ -9,6 +9,8 @@ import { GuestBook } from "./practices/guestBook";
 import { Quiz } from "./practices/quiz";
 import { Chatting } from "./practices/chatting";
 import { List } from "./practices/list";
+import { Tap } from "./practices/tap";
+import { Timer } from "./practices/timer";
 
 function Router() {
   return (
@@ -24,6 +26,8 @@ function Router() {
           <Route path="/quiz" element={<Quiz />}/>
           <Route path="/chat" element={<Chatting />}/>
           <Route path="/list" element={<List />}/>
+          <Route path="/tap" element={<Tap />}/>
+          <Route path="/timer" element={<Timer />} />
         </Routes>
     </BrowserRouter>
   )
