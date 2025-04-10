@@ -8,6 +8,7 @@ import { Example } from "./practices/todoListExample";
 import { GuestBook } from "./practices/guestBook";
 import { Quiz } from "./practices/quiz";
 import { Chatting } from "./practices/chatting";
+import { List } from "./practices/list";
 
 function Router() {
   return (
@@ -22,6 +23,7 @@ function Router() {
           <Route path="/guest" element={<GuestBook />}/>
           <Route path="/quiz" element={<Quiz />}/>
           <Route path="/chat" element={<Chatting />}/>
+          <Route path="/list" element={<List />}/>
         </Routes>
     </BrowserRouter>
   )
