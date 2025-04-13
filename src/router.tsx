@@ -13,6 +13,9 @@ import { Tap } from "./practices/tap";
 import { Timer } from "./practices/timer";
 import { Carousel } from "./practices/carousel";
 import { Calculator } from "./practices/calculator";
+import { TestPractice } from "./practices/testPractice";
+import { LastTodolist } from "./practices/lastTodolist";
+import { Weather } from "./practices/weather/app";
 
 function Router() {
   return (
@@ -32,6 +35,9 @@ function Router() {
           <Route path="/timer" element={<Timer />} />
           <Route path="/carousel" element={<Carousel />} />
           <Route path="/calculator" element={<Calculator />} />
+          <Route path="/test" element={<TestPractice />}/>
+          <Route path="/lastTodo" element={<LastTodolist />}/>
+          <Route path="/weather" element={<Weather />}/>
         </Routes>
     </BrowserRouter>
   )
